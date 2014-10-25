@@ -85,45 +85,39 @@
 
 
 
-<!-- Beginning of 12 grid container for posts & categories -->
-<div class="container">
-    <!-- Beginning of categories container -->
-    <div class="pull-right">
-        <div class="col-md-2"> <!-- Give the categories container 5 grids -->
-            <div class="categories hidden-xs hidden-sm"> <!-- Beginning of categories text container -->
-                <h3 class="cat_title">Categories</h3> <!-- <h3> tag for the "Categories" title -->
-                <ul class="cat_links"> <!-- Beginning of category links -->
-                    <!-- <li> class of active or opened link
-                    <li class="active"><a href="#">News</a></li> -->
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Designs</a></li>
-                    <li><a href="#">Coding</a></li>
-                    <li><a href="#">Tutorials</a></li>
-                    <li><a href="#">Uncategorized</a></li>
-                </ul> <!-- End of category links -->
-            </div> <!-- End of categories text container -->
-        </div>
-    </div> <!-- End of categories container -->
-
-    <!-- Beginning of second post -->
-    <div class="col-md-7"> <!-- Give the post container 7 grids -->
-        <h2><a class="post_title" href="./post-2.html">Lorem Ipsum Dotet</a></h2> <!-- Title of post -->
-        <div class="post_date">August 4th, 2014</div> <!-- Date of post -->
-    </div> <!-- End of post container -->
-    <div class="col-md-7 hidden-xs"> <!-- Give the post container 7 grids -->
-        <a href="./post-2.html" title="Second post image thumbnail..."><img class="post_image" src="http://webdevelop.nyc/application/themes/webdevelop/images/post-2.jpg" /></a> <!-- Post image thumbnail -->
+    <div class="container">
+        <!-- Beginning of categories container -->
+        <div class="row">
+            <div class="col-md-10">
+                <!-- Beginning of second post -->
+                <div class="post"> <!-- Give the post container 7 grids -->
+                    <h2><a class="post_title" href="./post-2.html">Lorem Ipsum Dotet</a></h2> <!-- Title of post -->
+                    <div class="post_date">August 4th, 2014</div> <!-- Date of post -->
+                    <a href="./post-2.html" title="Second post image thumbnail..."><img class="post_image" src="http://webdevelop.nyc/application/themes/webdevelop/images/post-2.jpg"></a> <!-- Post image thumbnail -->
+                    <!-- Beginning of post description -->
+                    <p class="post_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis dignissim mi, nec pharetra nunc. Sed sit amet tempor eros, sit amet varius velit. Phasellus non est euismod, commodo erat a, posuere turpis. Suspendisse porttitor sem et fermentum aliquam. Integer eget turpis nisi. Praesent ullamcorper scelerisque massa et vestibulum. Phasellus in dolor molestie, molestie eros at, viverra orci. Vestibulum iaculis turpis quis purus faucibus volutpat...</p> <!-- End of first post description -->
+                    <div class="read_more"> <!-- Container for the "Read More" text -->
+                        <a href="./post-2.html">Read More...</a> <!-- <a> tag link for "Read More..." -->
+                    </div> <!-- End of container for the "Read More" text -->
+                </div> <!-- End of 7 grid container for the "Read More" text -->
+                <!-- End of second post -->
+            </div>
+            <div class="col-md-2"> <!-- Give the categories container 5 grids -->
+                <div class="categories hidden-xs hidden-sm"> <!-- Beginning of categories text container -->
+                    <h3 class="cat_title">Categories</h3> <!-- <h3> tag for the "Categories" title -->
+                    <ul class="cat_links"> <!-- Beginning of category links -->
+                        <!-- <li> class of active or opened link
+                       <li class="active"><a href="#">News</a></li> -->
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Designs</a></li>
+                        <li><a href="#">Coding</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Uncategorized</a></li>
+                    </ul> <!-- End of category links -->
+                </div> <!-- End of categories text container -->
+            </div>
+        </div> <!-- End of categories container -->
     </div>
-    <div class="col-md-10"> <!-- Give the post description and "read more" link 10 grids -->
-        <!-- Beginning of post description -->
-        <p class="post_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis dignissim mi, nec pharetra nunc. Sed sit amet tempor eros, sit amet varius velit. Phasellus non est euismod, commodo erat a, posuere turpis. Suspendisse porttitor sem et fermentum aliquam. Integer eget turpis nisi. Praesent ullamcorper scelerisque massa et vestibulum. Phasellus in dolor molestie, molestie eros at, viverra orci. Vestibulum iaculis turpis quis purus faucibus volutpat...</p> <!-- End of first post description -->
-    </div> <!-- End of post description and "read more" link -->
-    <div class="col-md-10"> <!-- Give the post container 7 grids -->
-        <div class="read_more"> <!-- Container for the "Read More" text -->
-            <a href="./post-2.html">Read More...</a> <!-- <a> tag link for "Read More..." -->
-        </div> <!-- End of container for the "Read More" text -->
-    </div> <!-- End of 7 grid container for the "Read More" text -->
-    <!-- End of second post -->
-</div> <!-- End of 12 grid container for posts & categories -->
 
 <footer class="bottom">
 
