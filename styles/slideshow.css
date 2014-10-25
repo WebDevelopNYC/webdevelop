@@ -1,0 +1,209 @@
+.rslides {
+    margin:0 auto 40px;
+}
+
+#slider2,#slider3 {
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	margin:0 auto;
+}
+
+.rslides_tabs {
+	list-style:none;
+	padding:0;
+	background:rgba(0,0,0,.25);
+	box-shadow:0 0 1px rgba(255,255,255,.3),inset 0 0 5px rgba(0,0,0,1.0);
+	-moz-box-shadow:0 0 1px rgba(255,255,255,.3),inset 0 0 5px rgba(0,0,0,1.0);
+	-webkit-box-shadow:0 0 1px rgba(255,255,255,.3),inset 0 0 5px rgba(0,0,0,1.0);
+	font-size:18px;
+	list-style:none;
+	margin:0 auto 50px;
+	max-width:540px;
+	padding:10px 0;
+	text-align:center;
+	width:100%;
+}
+
+.rslides_tabs li {
+	display:inline;
+	float:none;
+	margin-right:1px;
+}
+
+.rslides_tabs a {
+	width:auto;
+	line-height:20px;
+	padding:9px 20px;
+	height:auto;
+	background:transparent;
+	display:inline;
+}
+
+.rslides_tabs li:first-child {
+	margin-left:0;
+}
+
+.rslides_tabs .rslides_here a {
+	background:rgba(255,255,255,.1);
+	color:#fff;
+	font-weight: bold;
+}
+
+/* Callback example */
+.events {
+	list-style:none;
+}
+
+.callbacks_container {
+	margin-bottom:50px;
+	position:relative;
+	float:left;
+	width:100%;
+}
+
+.callbacks {
+	position:relative;
+	list-style:none;
+	overflow:hidden;
+	width:23%;
+	top: 25px;
+	margin:0;
+    border-top: 6px #00AED9 solid;
+    border-bottom: 6px #00AED9 solid;
+    -webkit-box-shadow: -2px 10px 43px 0px rgba(0,0,0,0.83);
+    -moz-box-shadow: -2px 10px 43px 0px rgba(0,0,0,0.83);
+    box-shadow: -2px 10px 43px 0px rgba(0,0,0,0.83);
+}
+
+.callbacks li {
+	position:absolute;
+	width:100%;
+	left:0;
+	top:0;
+}
+
+.callbacks img {
+	display:block;
+	position:relative;
+	z-index:1;
+	height:400px;
+	width:100%;
+}
+
+.callbacks .caption {
+	display:block;
+	position:absolute;
+    height: 128px;
+	z-index:2;
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+	left:0;
+	right:0;
+	bottom:0;
+	padding:0px 20px;
+	margin:0;
+	max-width:none;
+}
+
+.caption p {
+    font-family: 'HelveticaNeueLTPro-Th' !important;
+	font-size: 16px;
+	text-shadow:none;
+    text-align: center;
+	color:#FFF;
+    width: 95%;
+    margin: auto;
+    padding: 35px;
+}
+
+.callbacks h1 {
+    z-index: 100;
+    position: absolute;    
+    color: #363636;
+    font-family: 'HelveticaNeueLTPro-Th' !important;
+    font-size: 46px;
+    font-weight: lighter;
+    padding: 70px 0 0 0;
+}
+
+.callbacks a {
+    color: #363636;
+    text-decoration: none;
+}
+
+.callbacks a:hover {
+    color: #00AED9;
+}
+
+a.slide_read_more {
+    float: right;
+    color: #00AED9;
+    font-family: 'HelveticaNeueLTPro-Th' !important;
+	font-size: 16px;
+    padding: 3% 0 0;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a.slide_read_more:hover {
+    color: #FFF;
+}
+
+.callbacks_nav {
+	position:absolute;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	top:52%;
+	left:0;
+	opacity:0.7;
+	z-index:3;
+	text-indent:-9999px;
+	overflow:hidden;
+	text-decoration:none;
+	height:61px;
+	width:38px;
+	background:transparent url("/images/arrows.gif") no-repeat left top;
+	margin-top:-45px;
+}
+
+.callbacks_nav:active {
+	opacity:1.0;
+}
+
+.callbacks_nav.next {
+	left:auto;
+	background-position:right top;
+	right:0;
+}
+
+#slider3-pager a {
+	display:inline-block;
+}
+
+#slider3-pager img {
+	float:left;
+}
+
+#slider3-pager .rslides_here a {
+	background:transparent;
+	box-shadow:0 0 0 2px #666;
+}
+
+#slider3-pager a {
+	padding:0;
+}
+
+@media screen and (max-width:600px) {
+	h1 {
+		font:24px/50px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	}
+	.callbacks_nav {
+		top: 47%;
+	}
+}

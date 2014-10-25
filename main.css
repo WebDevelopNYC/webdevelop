@@ -1,0 +1,404 @@
+/* font-face import */
+@import url('http://fonts.googleapis.com/css?family=Poiret+One:400');
+
+@font-face {
+  font-family: 'HelveticaNeueLTPro-Md';
+  src: url('fonts/HelveticaNeueLTPro-Md.eot?#iefix') format('embedded-opentype'),  url('fonts/HelveticaNeueLTPro-Md.otf')  format('opentype'),
+	     url('fonts/HelveticaNeueLTPro-Md.woff') format('woff'), url('fonts/HelveticaNeueLTPro-Md.ttf')  format('truetype'), url('fonts/HelveticaNeueLTPro-Md.svg#HelveticaNeueLTPro-Md') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLTPro-UltLt';
+  src: url('fonts/HelveticaNeueLTPro-UltLt.eot?#iefix') format('embedded-opentype'),  url('fonts/HelveticaNeueLTPro-UltLt.otf')  format('opentype'),
+	     url('fonts/HelveticaNeueLTPro-UltLt.woff') format('woff'), url('fonts/HelveticaNeueLTPro-UltLt.ttf')  format('truetype'), url('fonts/HelveticaNeueLTPro-UltLt.svg#HelveticaNeueLTPro-UltLt') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLTPro-Lt';
+  src: url('fonts/HelveticaNeueLTPro-Lt.eot?#iefix') format('embedded-opentype'),  url('fonts/HelveticaNeueLTPro-Lt.otf')  format('opentype'),
+	     url('fonts/HelveticaNeueLTPro-Lt.woff') format('woff'), url('fonts/HelveticaNeueLTPro-Lt.ttf')  format('truetype'), url('fonts/HelveticaNeueLTPro-Lt.svg#HelveticaNeueLTPro-Lt') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Main Styles */
+body {
+    background-image: url('images/bg.jpg');
+    background-repeat: repeat;
+}
+
+/* Header */
+h1.title {
+    font-family: 'Poiret One' !important;';
+    font-weight: normal;
+    color: #FFF;
+    font-size: 114px;
+    text-align: center;
+}
+
+h1.title strong {
+    font-family: 'Poiret One' !important;';
+    font-weight: normal;
+    color: #00AED9;
+}
+
+/* Navigation */
+.nav_container {
+    width: 100%;
+    height: 76px;
+}
+
+.navigation li {
+    font-family: 'HelveticaNeueLTPro-UltLt' !important;';
+    color: #FFF;
+    display: inline;
+    list-style-type: none;
+}
+
+
+
+/* Header */
+.title {
+    height: 135px;
+    padding-top: 50px;
+    font-family: 'HelveticaNeueLTPro-UltLt' !important;';
+    font-weight: normal;
+    color: #FFF;
+    font-size: 114px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.title strong {
+    font-family: 'HelveticaNeueLTPro-UltLt' !important;';
+    font-weight: normal;
+    color: #00AED9;
+}
+
+.title a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+a.title, h1.title {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+a.title:hover, h1.title:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=40);
+}
+
+h3.title_slogan {
+    font-family: 'HelveticaNeueLTPro-UltLt' !important;';
+    font-weight: normal;
+    color: #00AED9;
+    font-size: 30px;
+    float: right;
+    height: 37px;
+}
+
+
+/* Navigation */
+.navbar {
+   z-index: 50;
+}
+
+.navbar {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.1);
+    border: none;
+    height: 76px;
+    -webkit-box-shadow: -2px 10px 43px 0px rgba(0,0,0,0.23);
+    -moz-box-shadow: -2px 10px 43px 0px rgba(0,0,0,0.23);
+    box-shadow: -2px 10px 43px 0px rgba(0,0,0,0.23);
+}
+
+/* Navigation */
+.navbar2 {
+    background: none;
+    border: none;
+}
+
+.navbar li {
+    display: inline;
+    list-style-type: none;
+}
+
+.navbar li a {
+    font-family: 'HelveticaNeueLTPro-UltLt' !important;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 17.4px;
+    top: 18px;
+}
+
+
+
+.navbar .navbar-nav > li > a, .navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+
+.navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #00AED9;
+    background-color: none;
+    height: 76px;
+}
+
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #00AED9;
+    background: none;
+    box-shadow: none;
+}
+
+        /* Search Box */
+        .search_box {
+            width: 311px;
+            height: 40px;
+            margin-left: 59%;
+        }
+
+        #new_search{
+            float: right;
+            margin: -14px 0 0;
+        }
+
+        .search_text_input{
+            text-align: left;
+            margin: 0;
+            padding: 11px 30px;
+            font-family: 'HelveticaNeueLTPro-UltLt' !important;
+            font-size: 11.65px;
+            color: #5A5A5A;
+            border: 1px solid #0076A3;
+            border-right: 0px;
+            border-top-left-radius: 5px 5px;
+            border-bottom-left-radius: 5px 5px;
+        }
+
+        .search_button {
+            margin: 0;
+            padding: 11px 7px;
+            font-family: 'HelveticaNeueLTPro-UltLt';
+            font-size: 11.65px;
+            font-weight: bold;
+            outline: none;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            color: #FFF;
+            border: solid 1px #0076A3;
+            border-right: 0px;
+            background: #0095CD;
+            background: 
+                -webkit-gradient(linear, left top, left bottom, from(#00ADEE), to(#0078A5));
+            background: 
+                -moz-linear-gradient(top,  #00ADEE,  #0078A5);
+            border-top-right-radius: 5px 5px;
+            border-bottom-right-radius: 5px 5px;
+        }
+
+        .search_button:hover {
+            text-decoration: none;
+            background: #007EAD;
+            background: 
+                -webkit-gradient(linear, left top, left bottom, from(#0095CC), to(#00678E));
+            background: 
+                -moz-linear-gradient(top,  #0095CC,  #00678E);
+        }
+
+        /* Fixes submit button height problem in Firefox */
+        .search_button::-moz-focus-inner {
+          border: 0;
+        }
+
+/* Body styles */
+    /* Post title, date, picture, paragraph, and read more */
+    a.post_title {
+        color: #FFF;
+        font-family: 'HelveticaNeueLTPro-UltLt' !important;
+        font-weight: lighter;
+        font-size: 44px;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .post_date {
+        color: #00AED9;
+        font-family: 'HelveticaNeueLTPro-UltLt' !important;
+        font-size: 18px;
+        padding: 0 0 12px;
+    }
+
+    .post_image {
+        width: 528px;
+        height: 324px;
+        border: 6px #00AED9 solid;
+        -webkit-box-shadow: -2px 10px 43px 0px rgba(0,0,0,0.83);
+        -moz-box-shadow: -2px 10px 43px 0px rgba(0,0,0,0.83);
+        box-shadow: -2px 10px 43px 0px rgba(0,0,0,0.83);
+    }
+
+    img.post_image {
+        opacity: 1.0;
+        filter: alpha(opacity=100);
+        /*
+        opacity: 0.5;
+        filter: alpha(opacity=40);
+        */
+    }
+
+    /* img.post_image:hover {
+        opacity: 1.0;
+        filter: alpha(opacity=100);
+    } */
+
+    p.post_description {
+        font-family: 'HelveticaNeueLTPro-UltLt' !important;
+        font-size: 18px;
+        color: #FFF;
+        margin: 45px 0;
+        font-weight: lighter;
+    }
+
+    /* Category link list styles */
+    .categories {
+        float: right;
+    }
+
+    .cat_title {
+        text-align: right;
+        color: #00AED9;
+        font-size: 26px;
+        font-family: 'HelveticaNeueLTPro-UltLt' !important;
+        font-weight: lighter;
+        padding: 0 0 15px
+    }
+
+    .cat_links {
+        text-align: right;
+        list-style-type: none;
+    }
+
+    .cat_links li a {
+        color: #FFF;
+        text-decoration: none;
+        line-height: 39px;
+        font-size: 19px;
+        font-family: 'HelveticaNeueLTPro-UltLt';
+        font-weight: lighter;
+    }
+
+    ul.cat_links li a:hover, ul.cat_links li.active a {
+        color: #00AED9;
+    }
+
+    .read_more a {
+        float: right;
+        font-family: 'HelveticaNeueLTPro-UltLt' !important;
+        text-decoration: none;
+        color: #00AED9;
+        font-size: 18px;
+        padding: 0 0 48px;
+    }
+
+    .read_more a:hover {
+        color: #FFF;
+        text-decoration: underline;
+    }
+
+/* Footer styles */
+.footer {
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(255, 255, 255);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(255, 255, 255, 0.13);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.footer h2 {
+    width: 150px;
+    padding: 30px 0 20px;
+    font-family: 'HelveticaNeueLTPro-UltLt' !important;
+    font-size: 22px;
+    color: #FFF;
+    font-weight: normal;
+}
+.footer p, .footer a {
+    font-family: 'HelveticaNeueLTPro-Lt' !important;
+    font-size: 14px;
+    color: #FFF;
+    text-decoration: none;
+    line-height: 16px;
+}
+
+.footer a:hover {
+    color: #00AED9;
+}
+
+.social_feeds img {
+    padding: 0 0 0 0;
+}
+
+.social_feeds p, .recent_projects li, .contact_me p {
+    padding: 0 0 15px;
+}
+
+.social_feeds strong, .recent_projects strong, .contact_me strong {
+    color: #00AED9;
+    font-weight: lighter;
+}
+
+.contact_me a:hover {
+    color: #FFF;
+    border-bottom: 1px solid #00AED9;
+}
+
+.recent_projects h2 {
+}
+
+.recent_projects a {
+    margin-left: -40px;
+    text-align: left;
+    color: #00AED9;
+}
+
+.recent_projects li {
+    text-align: left;
+    list-style-type: none;
+}
+
+.recent_projects a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.contact_me {
+    float: right;
+}
+
+@media (max-width: 980px) {
+    
+    .navbar-inverse {
+        background-color: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.1);
+    }
+    
+    .title {
+        margin-bottom: 80px;
+    }
+
+}
